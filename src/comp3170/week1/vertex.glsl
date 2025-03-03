@@ -1,8 +1,11 @@
 #version 410
 
 in vec4 a_position;	/* vertex position */
+// BUNDLING UP DATA AND SENDING IT TO VERTEX SHADER
+// THESE ARE ALL POSITIONS OF VERTICES HOW CAN I TURN THAT TO SOMETHING ON SCREEN
 
 void main() {
     gl_Position = a_position;
+    //USES GL POSITION TO TURN IT, A BUILT IN FUNCTION
 }
 

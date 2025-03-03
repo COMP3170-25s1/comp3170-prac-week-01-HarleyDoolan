@@ -52,7 +52,8 @@ public class Week1 implements  IWindowListener  {
 		ShaderLibrary shaderLibrary = new ShaderLibrary(DIRECTORY); // Creates a shader library which points to the directory shaders will be stored in.
 		
 		scene = new Scene(screenWidth,screenHeight); // Creates the scene. This is where we will be drawing things!
-	}
+		//THIS IS WHAT WE PUT ALL THE OBJECT IN, CONTAINS CAMERA POSITIONS ROTATIONS ETC
+		}
 
 		
 	@Override
