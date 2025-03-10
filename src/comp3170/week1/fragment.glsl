@@ -12,7 +12,7 @@ uniform vec2 u_screenSize;  	// screen dimensions in pixels
 layout(location = 0) out vec4 o_colour;	// output to colour buffer //WHAT DOES THIS DO?
 
 void main() {
-   vec2 p = gl_FragCoord.xy / u_screenSize;   // scale p into range (0,0) to (1,1)
+   //vec2 p = gl_FragCoord.xy / u_screenSize;   // scale p into range (0,0) to (1,1)
    
    float minScreenDimension = min(u_screenSize.x, u_screenSize.y);
    vec2 minScreenSizeRatio = vec2(minScreenDimension, minScreenDimension);
